@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/id_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/id_ani1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="rotateyAnimRun"
+        android:scaleType="centerInside"
+        android:src="@drawable/headphoto"
+        />
+
+    <ImageView
+        android:id="@+id/id_ani2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="propertyValuesHolder"
+        android:scaleType="centerInside"
+        android:src="@drawable/headphoto"
+        />
+
+    <ImageView
+        android:id="@+id/id_ani3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="viewAnim"
+        android:scaleType="centerInside"
+        android:src="@drawable/headphoto"
+        />
+
+</LinearLayout>
